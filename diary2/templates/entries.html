@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    entries
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Title</th>
+                <th scope="col">Content</th>
+                <th scope="col">Mood</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for diary in diaries %}
+                <tr>
+                    <th scope="row">{{ diary.date }}</th>
+                    <td>{{ diary.title }}</td>
+                    <td>{{ diary.content }}</td>
+                    <td>{{ diary.mood }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,16 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+nav .navbar-brand .red
+{
+    color: #db8fab;
+}
+
+.main {
+    background: #fce8f4;
+    color: #944763;
+    align-items: center;
+  }

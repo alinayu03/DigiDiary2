@@ -1,4 +1,4 @@
-## DigiDiary
+## DigiHome
 A web-based application where you can feel at home. Journal about your feelings, keep track of your mood, and visit your own digital room!
 
 ## Technologies
